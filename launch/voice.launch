@@ -1,0 +1,11 @@
+<launch>
+
+    <rosparam command="load" file="$(find voice_ros)/config/params.yaml"/>
+
+    <node name="mic_client" pkg="voice_ros" type="mic_client.py" output="screen" respawn="true" respawn_delay="30"/>
+
+    <node name="nav_v1" pkg="voice_ros" type="nav_v1.py" output="screen" respawn="true" respawn_delay="30"/>
+
+
+    
+</launch>

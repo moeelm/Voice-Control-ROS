@@ -1,0 +1,6 @@
+<launch>
+
+<remap from="/move_base_simple/goal" to="/RosAria/cmd_vel"/>
+
+
+</launch>

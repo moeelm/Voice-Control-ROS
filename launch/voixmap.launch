@@ -1,0 +1,19 @@
+
+<launch>
+
+  <!--<param name="/use_sim_time" value="true"/>-->
+
+<!--<remap from="/move_base_simple/goal" to="/RosAria/cmd_vel"/>-->
+
+
+<node pkg="tf" type="static_transform_publisher" name="odom_to_map" args="0 0 0 0 0 0 /map /odom 100"/>
+
+
+<node pkg="tf" type="static_transform_publisher" name="laser_base_link" args="0.2 0 -0.25 0 0 0 /base_scan /scan  100"/>
+
+<node pkg="tf" type="static_transform_publisher" name="odom_base_link" args="0 0 0 0 0 0 /base_link /RosAria/pose 100"/>
+
+<node pkg="tf" type="static_transform_publisher" name="image_base_link" args="0 0 0 0 0 0 /base_link /camera/rgb/image_raw 100"/> 
+
+</launch>
+
