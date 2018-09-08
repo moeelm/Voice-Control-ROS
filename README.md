@@ -50,7 +50,7 @@ To start the voice processing node, run the following command:
 roslaunch voice_ros voice.launch
 ```
 ## Autonomous Navigation Using Turtlebot
-![alt tag](http://github.com/moeelm/voice_ros/rviz-simul.png)
+![alt tag](https://github.com/moeelm/voice_ros/blob/master/rviz-simul.png)
 
 To run autonomous navigation using the Turtlebot robot as well as RVIZ simulator,
 1. Launch Turtlebot as well as Gazebo environment
