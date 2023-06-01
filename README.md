@@ -1,6 +1,10 @@
 
 # Voix
 This package uses the Google Text-To-Speech API to allow for seamless human robot interaction by sending navigation commands issued by the user to robot. Main operating system used was ROS while Turtlebot and Gazebo were used for simulation. Actual experiments were conducted using RosAria and the Pioneer3AT robot.
+
+# Academic Citations
+Please cite this IEEE publication when using this package for any academic projects: [M. Elmzaghi, M. Fahad and Y. Guo, "Implementing Robust Voice-Control for Human Robot Interaction for Autonomous Robot Guides," 2019 IEEE MIT Undergraduate Research Technology Conference (URTC), Cambridge, MA, USA, 2019, pp. 1-6, doi: 10.1109/URTC49097.2019.9660499.](https://ieeexplore.ieee.org/document/9660499)
+
 # Why use Google API?
 The goal is to create natural human robot interaction. Current voice processing software requires users to design speech recognition algorithms, collect datasets, as well as understand Natural Language Processing methods. The accuracy of these methods still does not exceed that of Google Cloud API given its massive datasets from the various voice services as well as the use of deep learning neural networks. By incorporating an accurate and robust voice processing software easily integrated with popular robotics software, users can include robust voice control into their robotics projects.
 # Installation 
